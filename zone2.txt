@@ -1,0 +1,3 @@
+next.co.il,127.0.0.1:776,NS
+
+hashai.roee,4.4.44.4,A

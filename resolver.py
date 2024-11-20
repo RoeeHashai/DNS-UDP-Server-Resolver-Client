@@ -23,9 +23,11 @@ while True:
     cur_time = datetime.datetime.now()
     while queue and queue[-1][1] < cur_time:
         del cache[queue.popleft()[0]]
-        
+    
+    print("[Cache]", cache)
     # check if data in cache and send it if able to reslove
     if data in cache:
+        print(f"[Cache] Found {data} in cache, not resolving")
         domain, (ip, record_type) = data, cache[data]
         s.sendto(f"{domain},{ip},{record_type}".encode(), addr)
         continue
@@ -45,6 +47,7 @@ while True:
     # send domain to DNS server and loop until resolved
     resolved = False
     while not resolved:
+        print(f"[Resolving] Sending {data} to {ip}:{port}")
         s.sendto(data.encode(), (ip, port))
         response, _ = s.recvfrom(1024)
         if(response.decode().strip() == 'non-existent domain'):

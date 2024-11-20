@@ -15,7 +15,10 @@ while True:
 
     with open(PATH, 'r') as file:
         for line in file:
-            tokens = line.strip().split(',')
+            line = line.strip()
+            if not line:
+                continue
+            tokens = line.split(',')
             domain = tokens[0]
             record_type = tokens[2]
 
