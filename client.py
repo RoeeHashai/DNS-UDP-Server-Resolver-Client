@@ -12,5 +12,5 @@ while True:
     if response.decode().strip() == 'non-existent domain':
         print('non-existent domain')
         continue
-    domain, ip, record_type = response.decode().strip().split(',')
-    print(ip)
+    res = response.decode().strip()
+    print(res)
