@@ -1,3 +1,4 @@
-next.co.il,127.0.0.1:776,NS
-
-hashai.roee,4.4.44.4,A
+www.facebook.co.il,2.2.2.2,A
+.ao.co.il,127.0.0.1:33333,NS
+c.b.a,4.4.4.4,A
+d.b.a,5.5.5.5,A

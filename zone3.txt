@@ -1,3 +1,3 @@
-google.next.co.il,1.2.3.7,A
-
-
+www.amazon.ao.co.il,3.3.3.3,A
+bo.ao.co.il,127.0.0.1:11111,NS
+.b.a,127.0.0.1:22222,NS
