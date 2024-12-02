@@ -1,3 +1,2 @@
-www.amazon.ao.co.il,3.3.3.3,A
-bo.ao.co.il,127.0.0.1:11111,NS
-.b.a,127.0.0.1:22222,NS
+ee.zz.aa.bb.cc,5.5.5.5,A
+hh.zz.aa.bb.cc,127.0.0.1:4444,NS

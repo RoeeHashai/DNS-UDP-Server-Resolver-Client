@@ -9,8 +9,5 @@ while True:
     data = input()
     s.sendto(data.encode(), (SERVER_IP, SERVER_PORT))
     response, _ = s.recvfrom(1024)
-    if response.decode().strip() == 'non-existent domain':
-        print('non-existent domain')
-        continue
-    res = response.decode().strip()
-    print(res)
+    res = response.decode().strip().split(',')
+    print(res[0])

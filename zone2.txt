@@ -1,4 +1,2 @@
-www.facebook.co.il,2.2.2.2,A
-.ao.co.il,127.0.0.1:33333,NS
-c.b.a,4.4.4.4,A
-d.b.a,5.5.5.5,A
+a.aa.bb.cc,3.3.3.3,A
+zz.aa.bb.cc,127.0.0.1:3333,NS

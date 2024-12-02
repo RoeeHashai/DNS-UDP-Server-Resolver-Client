@@ -27,7 +27,7 @@ while True:
             record_type = tokens[2]
 
             # check if the record type is A and the domain is the same as the data
-            if domain == data and record_type == 'A':
+            if domain == data:
                 best_match = line
                 break
             
