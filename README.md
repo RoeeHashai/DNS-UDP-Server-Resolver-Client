@@ -36,31 +36,31 @@ The client sends DNS query requests to the server and displays responses. It's d
 ### Server
 Run the server with the following command:
 ```bash
-python server.py [PORT] [ZONE_FILE_PATH]
+python3 server.py [PORT] [ZONE_FILE_PATH]
 ```
 Example:
 ```bash
-python server.py 12345 zone.txt
+python3 server.py 12345 zone.txt
 ```
 
 ### Resolver
 Run the resolver with the following command:
 ```bash
-python resolver.py [PORT] [DNS_SERVER_IP] [DNS_SERVER_PORT] [TTL]
+python3 resolver.py [PORT] [DNS_SERVER_IP] [DNS_SERVER_PORT] [TTL]
 ```
 Example:
 ```bash
-python resolver.py 11111 127.0.0.1 12345 60
+python3 resolver.py 11111 127.0.0.1 12345 60
 ```
 
 ### Client
 Run the client with the following command:
 ```bash
-python client.py [SERVER_IP] [SERVER_PORT]
+python3 client.py [SERVER_IP] [SERVER_PORT]
 ```
 Example:
 ```bash
-python client.py 127.0.0.1 11111
+python3 client.py 127.0.0.1 11111
 ```
 
 ## Zone File Format
